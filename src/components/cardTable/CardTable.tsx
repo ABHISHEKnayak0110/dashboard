@@ -64,7 +64,6 @@ let column = [
         displayName : "Commit Id",
         key : "commitId",
         render : (data :any, key :string , index?:number) => {
-            console.log("hh" , data , key ,data?.[key] , data?.commitId)
            return(
                <div className={style.commitIdDiv}>
                     <img src={index &&(index % 5 ==0 || index === 1) ? prMasterIcon : prTestIcon}></img>

@@ -14,7 +14,6 @@ function Table(props : props) {
             <tr>
                 {
                   props.column?.map((data :any) => {
-                      console.log("roe" ,data?.displayName )
                       return (
                           <th   className ={style.headerRow}>
                               {data?.displayName}
@@ -30,7 +29,6 @@ function Table(props : props) {
                return  <tr>
                      {
                         props.column?.map((columnData :any ) => {
-                            console.log(columnData , tableData)
                             return (
                                 <td>
                                   {

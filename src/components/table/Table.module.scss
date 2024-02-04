@@ -1,0 +1,30 @@
+.tableDiv{
+    width: 100%;
+    height: 100%;
+    overflow: auto;
+
+    table{
+        font-size: 13px;
+        border-collapse: collapse;
+        max-height: 100%;
+        width: 100%;
+    }
+    th,
+   td {
+    padding: 0.8rem 3rem;
+    text-align: center;
+    white-space: nowrap;
+  }
+  .headerRow{
+      background-color: #EAE5F2;
+      padding: 0.8rem 3rem !important;
+      color: #46376F;
+      font-size: 1rem;
+      font-weight: 500;
+
+  }
+  tbody{
+      padding-bottom: 2rem;
+  }
+
+}

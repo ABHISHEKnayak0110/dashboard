@@ -1,0 +1,24 @@
+.tittleWrapper{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    .tittleDiv{
+        display: flex;
+        gap: 0.5rem;
+
+        & > span{
+            color: #39196D;
+            font-size: 1.2rem;
+            font-weight: 700;
+        }
+    }
+    .options{
+        display: flex;
+        gap: 0.8rem;
+        & > img{
+            width: 20px;
+            cursor: pointer;
+        }
+    }
+}

@@ -1,0 +1,22 @@
+.baseScreenWrapper{
+    width: 100%;
+    height: 100%;
+
+ .baseScreenBody{
+    padding: 1% 4%;
+    width: 100%;
+    height: calc(100% - 3.6rem);
+    display: flex;
+    gap: 2%;
+    .leftSide{
+     height: 100%;
+     width: 56px;
+    
+    }
+    .main{
+        height: 100%;
+        width:  calc(100% - 56px);
+        // border: 1px solid blue;
+    }
+ }
+}

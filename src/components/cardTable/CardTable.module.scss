@@ -1,0 +1,45 @@
+.cardTableWrapper{
+    width: 100%;
+    background-color: #FFFFFF;
+    border-radius: 8px;
+
+.headingDiv{
+   display: flex;
+   justify-content: space-between;
+   align-items: center;
+   padding: 1rem;
+   & > p {
+       font-weight: 700;
+     color: #46376F;
+     font-size: 1rem;
+    }
+   & > span {
+       display: flex;
+       gap: 1.2rem;
+       & > img{
+           width: 20px;
+           cursor: pointer;
+       }
+
+       .inputBox{
+           border: 1px solid gray;
+           border-radius: 8px;
+           padding: 0.2rem;
+
+         
+       }
+       input:focus{
+        outline: none;
+    }
+   }
+}
+
+.commitIdDiv{
+    display: flex;
+    gap: 1.5rem;
+    align-items: center;
+
+}
+
+
+}

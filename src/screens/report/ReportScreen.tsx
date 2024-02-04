@@ -56,7 +56,6 @@ function ReportScreen() {
   return (
     <div className={style.reportScreenWrapper}>
         <div> <TittleWithOption/> </div>
- 
         <div className={style.simpleCardContainer}>
           {
               simpleCardData?.map(
